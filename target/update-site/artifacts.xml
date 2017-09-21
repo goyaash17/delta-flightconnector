@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?artifactRepository version='1.1.0'?>
+<repository name='file:/C:/Users/ashgoya2/AnypointStudio/research/delta-flight-connector/target/update-site/ - artifacts' type='org.eclipse.equinox.p2.artifact.repository.simpleRepository' version='1'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1505956700409'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <mappings size='3'>
+    <rule filter='(&amp; (classifier=osgi.bundle))' output='${repoUrl}/plugins/${id}_${version}.jar'/>
+    <rule filter='(&amp; (classifier=binary))' output='${repoUrl}/binary/${id}_${version}'/>
+    <rule filter='(&amp; (classifier=org.eclipse.update.feature))' output='${repoUrl}/features/${id}_${version}.jar'/>
+  </mappings>
+  <artifacts size='2'>
+    <artifact classifier='org.eclipse.update.feature' id='org.mule.tooling.ui.extension.delta-flight-connector.3.7.0' version='1.0.0.201709201818'>
+      <properties size='4'>
+        <property name='artifact.size' value='650'/>
+        <property name='download.size' value='650'/>
+        <property name='download.md5' value='9f4f43e09295d204b20d7699bb93f786'/>
+        <property name='download.contentType' value='application/zip'/>
+      </properties>
+    </artifact>
+    <artifact classifier='osgi.bundle' id='org.mule.tooling.ui.contribution.delta-flight.3.7.0' version='1.0.0.201709201818'>
+      <properties size='3'>
+        <property name='artifact.size' value='291847'/>
+        <property name='download.size' value='291847'/>
+        <property name='download.md5' value='f2cd484c7ffb8144e26357eac15bb0f7'/>
+      </properties>
+    </artifact>
+  </artifacts>
+</repository>
